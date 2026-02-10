@@ -1,0 +1,55 @@
+---
+title: "Formative Assessment"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+In this assignment, you will practice replicating a published research paper, Ruth Carlitz and Rachael McLellan’s "Open data from authoritarian regimes: New opportunities, new challenges," published in _Perspectives on Politics_ in 2021. The materials necessary for this assignment (the published article, Appendix, and replication archive) are available on Moodle. Download the replication files from Moodle and attempt to replicate the analyses in the published paper and Appendix. 
+
+You will turn in a knitted .pdf document a "research note" or short article, based on an .Rmd file that includes updated R code that replicates the paper and conducts any additional analyses that you propose. 
+
+
+The written component consists of three parts:
+
+## Part 1
+
+Your write-up should attempt to address the questions below. You should base your responses
+on the authors’ empirical claims and findings regarding Tanzanian open data (the case for which
+they present evidence). (250-350 words)
+
+  - What is the main research question and why does it matter?
+  - State the main research claim(s) in the article, and whether they are causal, descriptive/predictive, or something else. 
+  - Briefly describe the data used by the author. 
+  - What are the main dependent variables and independent variables (both in terms of the concepts they are intended to capture and their operationalization)? 
+  - What are the primary data sources used in the paper?
+  - What is the primary statistical or econometric method used to examine each
+claim? Explain using non-technical language. 
+  - Describe the main findings in a sentence or two. 
+  - What, if any, robustness checks does the author(s) provide for their preferred specification?
+  
+## Part 2
+
+Suggest at least three ways that the paper can be improved or extended. These can include
+suggestions for improving the data, methods, or presentation of results; for clarifying areas that
+were insufficiently explained; for additional robustness checks; or for extensions you’d like to
+see. For inspiration you could consider some of the replication exercises conducted by the [Institute for Replication](https://i4replication.org/discussion_paper.html). (300-500 words)
+
+## Part 3
+
+Suggest ways that the replication materials could be improved, and describe the changes you
+made to the replication files. What steps could the authors have taken to make replication more accessible to researchers? If you encountered any problems while attempting to replicate the
+study, describe them here. (~250 words)
+
+## Guidelines for Code
+
+When you modify the authors’ R code, do so as if you were preparing to release the replication archive yourself. That is, check the code carefully and use good programming practices. Using the guiding principle of literate programming, you might improve the interpretability of the code by annotating the script. **Note**: Every single line of code does not need to be explained, but you should try to add headings and comments to help humans decipher what the code is doing.
+
+## Bibliography
+
+Carlitz, R. D., & McLellan, R. (2021). Open data from authoritarian regimes: New opportunities,
+new challenges. _Perspectives on Politics_, 19(1), 160-170.
